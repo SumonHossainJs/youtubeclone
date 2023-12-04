@@ -1,0 +1,59 @@
+.updiiv {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f239;
+    border-radius: 8px;
+  
+    h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+  
+    .input {
+      margin-bottom: 15px;
+  
+      label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+      }
+  
+      .videoInput,
+      .c-img {
+        margin-bottom: 5px;
+      }
+  
+      .title,
+      .v-description,
+      .v-tags,
+      .videoInput,
+      .c-img {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+  
+      .v-description {
+        resize: vertical;
+      }
+    }
+  
+    .upbtn {
+      background-color: #007bff;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+  
+      &:hover {
+        background-color: #0056b3;
+      }
+    }
+  }
+  

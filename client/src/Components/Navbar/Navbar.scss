@@ -1,0 +1,62 @@
+@import '../../Styles/Veriable.scss';
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px ;
+    
+    .logo{
+        font-size: 1.3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        font-weight: bold;
+        img{
+            width: 40px;
+        }
+    }
+    .searchbox{
+        border: 2px solid $soft-bg;
+        border-radius: 5px;
+        padding:  5px;
+        display: flex;
+        justify-content: space-between;
+        width: 350px;
+        input{
+            background-color: transparent;
+            border: none;
+            width: 100%;
+            color: $soft-color;
+
+            &:focus{
+                outline: none;
+            }
+        }
+    }
+    .user{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        img{
+            width: 40px;
+            height: 40px;
+            border-radius: 50px;
+        }
+        span{
+            font-weight: 500;
+        }
+    }
+    .btn{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       gap: 5px;
+       border: 2px solid $soft-bg;
+       padding: 5px;
+       border-radius: 5px;
+    }
+}

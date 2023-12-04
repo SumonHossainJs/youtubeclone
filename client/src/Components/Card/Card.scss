@@ -1,0 +1,46 @@
+.c-container{
+    
+    margin-bottom: 25px;
+    cursor: pointer;
+    gap: 10px;
+   
+    
+
+    .th{
+        width: 303px;
+        height: 202px;
+        background-color: #999;
+        flex:1 ;
+        object-fit: cover;
+    }
+    .details{
+        display: flex;
+        gap: 10px;
+        margin-top: 20px;
+        .channelImg{
+            width: 50px;
+            height: 50px;
+            border-radius: 100px;
+
+        }
+        .texts{
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            .title{
+                font-size: 1.1rem;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+            .channelName{
+                font-size: 1rem;
+                color: lightgray;
+            }
+            .views{
+                font-size: .8rem;
+                color: gray;
+            }
+        }
+    }
+}
